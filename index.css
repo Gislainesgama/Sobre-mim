@@ -1,0 +1,153 @@
+body{
+    background-color:  #ffc0cb;
+    color: black;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 50px;
+
+}
+
+    h1{
+    color:black; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 50px;
+
+    
+}
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #DA70D6;
+    
+}
+.links{
+    display: inline-block;
+    border:solid 0px;
+    position: absolute;
+    right: 30%;
+    top: 55%;
+    left: 30%;
+
+
+
+}
+.conteudo{
+align-items: left;
+margin-left: 6%;
+margin-bottom: 0%;
+margin-top: 0%;
+}
+.center{
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 60px;
+        height: 34px;
+        left: 48%;
+        bottom: 180%;
+        
+        
+    }
+    
+    .switch input {
+        display: none;
+        
+    }
+    
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0; 
+        background: #ff3366 url(./moon-star.svg) no-repeat center right 20%;
+        transition: .4s;
+        border-radius: 34px;
+        
+        
+    }
+    
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 26px;
+        width: 26px;
+        left: 4px;
+        bottom: 4px;
+        background: white; 
+        transition: .4s;
+        border-radius: 50%;
+        
+}
+.caixa{
+    background-color: #ffc0cb;
+        width: 300px; 
+        height: 300px; 
+        border: 0px solid #ccc; 
+        padding: 20px;  
+        margin: 10px 0;  
+    
+        text-align: left; 
+    }
+    
+    
+    .caixa p {
+        margin: 0; 
+}
+ul{
+list-style: none;}
+
+a{
+    text-decoration: none;
+}
+
+    li img{
+        width: 60px;
+        height: 60px;
+        
+    }
+    
+    input:checked + .slider {
+        background: #ffc0cb url(./sun.svg) no-repeat center left 20%;
+
+    }
+    
+    
+    
+    
+    input:checked + .slider:before {
+        transform: translateX(26px);
+    }
+    
+    body.dark-mode {
+        background-color: #ff3366; 
+        color: white;
+        
+        
+    
+    }
+    body.dark-mode h1{
+
+        color: white;
+ }
+ body.dark-mode .caixa {
+    background-color: #ff3366; 
+    color: white; 
+ }
+    
+.cabecalho{
+   margin-left: 50px; 
+}
+
